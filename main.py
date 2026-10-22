@@ -7,7 +7,8 @@ from stopwatch import Stopwatch
 if __name__ == '__main__':
     
     #popup = Popup()
-    Popup.first_popup()
+    #Popup.first_popup()
+    Stopwatch.alarm()
 
     #Stopwatch.start_stopwatch(5)
 

@@ -1,5 +1,7 @@
 import time
+from datetime import datetime
 import PySimpleGUI as sg
+from window_popup import Popup
 
 
 class Stopwatch():
@@ -13,5 +15,17 @@ class Stopwatch():
             time.sleep(1)
             time_sec -= 1
 
-    #def start_stopwatch():
-        #Stopwatch.start_stopwatch()
+    def alarm():
+
+        alarm_time = "20:17:00"
+
+        while True:
+            print("inside loop")
+            now = datetime.now().strftime("%H:%M:%S")
+            print(now)
+            if now == alarm_time:
+                print("inside if statement")
+                Popup.first_popup()
+                break
+            time.sleep(1)
+
