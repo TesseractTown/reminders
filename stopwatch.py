@@ -4,9 +4,6 @@ import PySimpleGUI as sg
 
 class Stopwatch():
 
-    def __init__(self):
-            pass
-
     def start_stopwatch(time_sec):
 
        while time_sec:
@@ -16,5 +13,5 @@ class Stopwatch():
             time.sleep(1)
             time_sec -= 1
 
-    def start_stopwatch():
-        Stopwatch.start_stopwatch(10)
+    #def start_stopwatch():
+        #Stopwatch.start_stopwatch()

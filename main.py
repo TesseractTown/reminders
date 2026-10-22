@@ -6,9 +6,9 @@ from stopwatch import Stopwatch
 
 if __name__ == '__main__':
     
-    popup = Popup()
-    popup.first_popup()
+    #popup = Popup()
+    Popup.first_popup()
 
-    Stopwatch.start_stopwatch()
+    #Stopwatch.start_stopwatch(5)
 
     #window_popup().run()
