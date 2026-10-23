@@ -6,17 +6,17 @@ from window_popup import Popup
 
 class Stopwatch():
 
-    def alarm():
+    def __init__(self, popup):
+            self.popup = popup
 
-        alarm_time = "22:40:00"
+    def alarm(self):
+
+        alarm_time = "17:00:00"
 
         while True:
-            #print("inside loop")
             now = datetime.now().strftime("%H:%M:%S")
-            #print(now)
             if now == alarm_time:
-                print("inside if statement")
-                Popup.first_popup()
+                self.popup.first_popup()
                 break
             time.sleep(1)
 

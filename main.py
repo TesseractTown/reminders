@@ -5,9 +5,10 @@ from stopwatch import Stopwatch
 if __name__ == '__main__':
     
     popup = Popup()
-    popup.first_popup()
+    #popup.first_popup() #only used for testing GUI
 
+    stopwatch = Stopwatch(popup)
     control = True
 
-   # while control == True:
-        #Stopwatch.alarm()
+    while control == True:
+        stopwatch.alarm()
