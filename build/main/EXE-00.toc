@@ -75,7 +75,11 @@
  [],
  False,
  False,
+<<<<<<< HEAD
  1792735511,
+=======
+ 1792732446,
+>>>>>>> 7c6a7affac546e6e919daf5f662163aaf2fa1613
  [('runw.exe',
    'C:\\Users\\Kyra\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\runw.exe',
    'EXECUTABLE')],
